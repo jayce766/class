@@ -1,0 +1,137 @@
+
+<html>
+  <head>
+    <title>Contact Us</title>
+    <style>
+      body{
+        display:flex;
+        justify-content: center;
+        padding:3rem 0;
+        font-family: "poppins", sans-serif;
+        font-size:1rem;
+        color:white;
+        background-image: url(./help.jpg);
+      }
+
+      main{
+        max-width: 350px;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+      }
+
+      .intro{
+        display:flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+        text-align:center;
+        width: 100%;
+        margin-bottom: 3rem;
+      }
+      .title{
+        padding:1rem;
+        font-size: 1.75rem;
+      }
+      .sign-up{
+        width:100%;
+      }
+
+      .sign-up-para{
+        padding:1rem 5rem;
+        margin-bottom: 1.75rem;
+        border-radius: 0.8rem;
+        box-shadow: 0 8px 0px rgba(0 0 0/0.15);
+        background-color: #7138cc;
+        text-align:center;
+      }
+      .sign-up-form{
+       display: flex;
+       flex-direction: column;
+       align-items:center;
+       padding: 1.2rem;
+       border-radius: 0.8rem;
+       box-shadow:0 8px 0px rgba(0 0 0/0.15);
+       color:#b9b6d3;
+       background-color: white;
+      }
+
+      .form-input{
+        width:100%;
+        margin-bottom: 1em;
+        position:relative;
+      }
+
+      .form-input input{
+        width:calc(100% - 20px);
+        padding: 10px;
+        border:2px solid rgba(185, 182, 211, 0.25);
+        border-radius:0.5em;
+        font-weight:600;
+        color:#3e3c49;
+      }
+      .form-input input:focus{
+        outline:none;
+        border: 2px solid #b9b6d3;
+      }
+      .submit-btn{
+        cursor:pointer;
+        width:100%;
+        padding:1em;
+        margin-bottom:1em;
+        border: none;
+        border-bottom:5px solid #31bf81;
+        border-radius:0.5em;
+        background-color: #38cc8c;
+        color: white;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      .submit-btn:hover{
+        background-color: #5dd5a1;
+      } 
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="intro">
+        <h1 class="title">Contact Us</h1>
+        <p>Get up to 50% off on all
+          our products and services of all things you purchase.
+        </p>
+      </section>
+      <section class="sign-up">
+        <p class="sign-up-para">
+          create an account to get access and information at any time
+        </p>
+        <form class="sign-up-form">
+          <div class="form-input">
+            <input type="text" name="first-name" id="First-name" placeholder="First Name" required/>
+          </div>
+          <div class="form-input">
+          <input type="text" name="last-name" id="Last-name" placeholder="Last Name" required/>
+        </div>
+        <div class="form-input">
+          <input type="text" name="email" id="email" placeholder="Email Address" required/>
+        </div>
+        <div class="form-input">
+          <input type="text" name="password" id="password" placeholder="Password" required/>
+        </div>
+        <div class="form-input">
+            <input type="text" name="password" id="password" placeholder="re-enter password" required/>
+          </div>
+        <input class="submit-btn"
+        type="submit"
+        value="Sign up"/>
+        <p>You can also contact us on:</p>  
+    <ul>
+      <li><a href="paulchinemerem32@gmail.com">paulchinemerem32@gmail.com</a></li>
+      <li>+233 538 027 289</li>
+    </ul>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  </body>
+</html>
